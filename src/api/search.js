@@ -17,7 +17,7 @@ export function getHotKey() {
 }
 // 搜索数据
 export function search(query, page, zhida, perpage) {
-  const url = debug ? '/api/search' : 'http://47.107.250.161/music/api/search'
+  const url = debug ? '/api/search' : 'http://47.107.250.161/api/search'
 
   const data = Object.assign({}, commonParams, {
     w: query,
